@@ -53,6 +53,10 @@ html {
   color: black;
 }
 
+a {
+  text-decoration: none;
+  color: var(--text-color-nav);
+}
 
 .top {
   position: relative;
