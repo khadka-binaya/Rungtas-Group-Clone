@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo-img {
+  width: 100%;
+  height: 60px;
+  padding-top: 0.4em;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #ffffff;
+  align-items: center;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.nav-links {
+  display: flex;
+  padding: 1rem;
+}
+
+.nav-link {
+  display: grid;
+  padding: 0 0.6em;
+  color: rgb(94, 84, 84);
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: black;
+}
+
+
+.top {
+  position: relative;
+  width: 100%;
+  background: #e41513;
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ph-number {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-content {
+  display: flex;
+  /* padding: ; */
+}
+
+
+
+.social-icon-link {
+  cursor: pointer;
+}
+
+.social-s-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  background: #ffffff;
+  border-radius: 25%;
+  margin: 0.2em;
+}
+
+.post:hover {
+  background-color: var(--facebook-color);
+}
+
+.tweet:hover {
+  background-color: var(---twitter-color);
+}
+
+.insta:hover {
+  background-color: var(--insta-color);
+}
+
+.linkedin:hover {
+  background-color: var(--linkedin-color);
+}
+
+.fa-phone-icon {
+  margin-right: 0.2em;
+}
