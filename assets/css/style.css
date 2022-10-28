@@ -47,7 +47,7 @@ html {
 .top {
   position: relative;
   width: 100%;
-  background: #e41513;
+  background: var(--primary);
   padding: 4px 0;
   display: flex;
   justify-content: space-around;
