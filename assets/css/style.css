@@ -63,8 +63,6 @@ html {
   /* padding: ; */
 }
 
-
-
 .social-icon-link {
   cursor: pointer;
 }
@@ -79,6 +77,11 @@ html {
   border-radius: 25%;
   margin: 0.2em;
 }
+
+.white {
+  color: #ffffff;
+}
+
 
 .post:hover {
   background-color: var(--facebook-color);
@@ -98,4 +101,13 @@ html {
 
 .fa-phone-icon {
   margin-right: 0.2em;
+}
+
+.topDetails {
+  display: flex;
+  align-items: center;
+}
+
+.e-email {
+  margin-right: 8px;
 }
