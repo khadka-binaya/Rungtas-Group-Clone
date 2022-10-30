@@ -88,31 +88,37 @@ a {
   align-items: center;
   height: 35px;
   width: 35px;
+  color: var(--primary) !important;
   background: #ffffff;
   border-radius: 25%;
   margin: 0.2em;
+}
+
+.social-s-icon:hover {
+  border: 2px solid white;
+  background: var(--primary);
+}
+
+.social-s-icon:hover>a {
+  color: white;
 }
 
 .white {
   color: #ffffff;
 }
 
-
-.post:hover {
+/* .post:hover {
   background-color: var(--facebook-color);
 }
-
 .tweet:hover {
   background-color: var(---twitter-color);
 }
-
 .insta:hover {
   background-color: var(--insta-color);
 }
-
 .linkedin:hover {
   background-color: var(--linkedin-color);
-}
+} */
 
 .fa-phone-icon {
   margin-right: 0.2em;
@@ -126,4 +132,8 @@ a {
 
 .e-email {
   margin-right: 8px;
+}
+
+span {
+  cursor: pointer;
 }
