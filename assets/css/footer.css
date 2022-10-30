@@ -1,0 +1,56 @@
+/* footer-section 
+footer-content
+ f-c-header 
+ f-c-details */
+
+footer {
+  padding: 60px 0;
+  background: #CFD2CF;
+}
+
+
+.footer-section {
+  /* padding: 4rem; */
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.footer-content {
+  flex: 1;
+  /* max-width: 100%; */
+  line-height: 1.6;
+  margin-left: 3.2rem;
+  margin-right: auto;
+  /* padding: 0.2rem; */
+}
+
+
+.f-c-header {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+
+.f-c-details {
+  font-size: 12px;
+}
+
+.f-c-details input {
+  width: 200px;
+  padding: 8px 4px;
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
+
+.btn-message {
+  padding: 2px 4px;
+}
+
+.footer-container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}

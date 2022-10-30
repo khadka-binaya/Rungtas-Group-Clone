@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *,
 *::before,
 *::after {
@@ -40,6 +42,7 @@ html {
   padding: 1rem;
   margin-left: auto;
   margin-right: 2rem;
+  overflow: hidden;
 }
 
 .nav-link {
@@ -52,6 +55,7 @@ html {
   cursor: pointer;
   color: black;
 }
+
 
 a {
   text-decoration: none;
@@ -136,4 +140,80 @@ a {
 
 span {
   cursor: pointer;
+}
+
+.subham-product {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  color: rgb(94, 84, 84);
+  padding: 0.6em;
+}
+
+.super-product {
+  margin-top: 0.4em;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  color: rgb(94, 84, 84);
+  padding: 0.6em;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 25px;
+  border-radius: 10px 20px;
+}
+
+.dropdown-content a {
+  font-size: 14px;
+  float: none;
+  color: rgb(94, 84, 84);
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  cursor: pointer;
+  color: black;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* .line {
+  border-top: 1px solid black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+
+} */
+
+hr {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  color: darkblue;
+}
+
+.text-white {
+  color: #ddd;
 }
